@@ -12,6 +12,11 @@
   padding: 20px;
 }
 
+.list-container {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
 input {
   width: 100%;
   box-sizing: border-box;
