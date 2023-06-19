@@ -23,7 +23,7 @@ function List( {contacts} ) {
       value={filterText} 
       onChange={(e) => setFilterText(e.target.value)}/>
 
-      <ul>
+      <ul className='list'>
         {filteredContacts.map((contact, index) => (<li key={index}>{contact.fullname}</li>))}
       </ul>
     </div>
