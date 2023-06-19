@@ -22,14 +22,14 @@ function List( {contacts} ) {
       placeholder='Filter Contact' 
       value={filterText} 
       onChange={(e) => setFilterText(e.target.value)}/>
-
-      <ul className='list'>
-        {filteredContacts.map((contact, index) => (<li key={index}>
-          <span>{contact.fullname}</span>
-          <span>{contact.phone_number}</span>
-        </li>))}
-      </ul>
-
+      <div className='list-container'>
+        <ul className='list'>
+          {filteredContacts.map((contact, index) => (<li key={index}>
+            <span>{contact.fullname}</span>
+            <span>{contact.phone_number}</span>
+          </li>))}
+        </ul>
+      </div>      
       <p id='results'>Results ({filteredContacts.length})</p>
     </div>
   )
