@@ -3,4 +3,4 @@ Contacts app that lists the given name and phone number have filtering that deve
 
 ![gif][def] 
 
-[def]: /contacts-app/app.gif
+[def]: app.gif
